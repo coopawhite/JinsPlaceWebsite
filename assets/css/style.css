@@ -496,6 +496,14 @@ p {
   visibility: visible;
 }
 
+#navbar .nav-link {
+  text-decoration: none; /* Remove underline */
+}
+
+#navbar .dropdown a {
+  text-decoration: none; /* Remove underline */
+}
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
