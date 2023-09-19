@@ -25,7 +25,7 @@
   src: url('../font/IntegralCF-BoldOblique.woff2') format('woff2'),
        url('../font/IntegralCF-BoldOblique.woff') format('woff'),
        url('../font/IntegralCF-BoldOblique.eot');
-  font-style: italic;
+  font-style: normal;
   font-weight: bold;
 }
 
@@ -44,7 +44,7 @@
   src: url('../font/IntegralCF-DemiBoldOblique.woff2') format('woff2'),
        url('../font/IntegralCF-DemiBoldOblique.woff') format('woff'),
        url('../font/IntegralCF-DemiBoldOblique.eot');
-  font-style: italic;
+  font-style: normal;
   font-weight: bold;
 }
 
@@ -63,7 +63,7 @@
   src: url('../font/IntegralCF-ExtraBoldOblique.woff2') format('woff2'),
        url('../font/IntegralCF-ExtraBoldOblique.woff') format('woff'),
        url('../font/IntegralCF-ExtraBoldOblique.eot');
-  font-style: italic;
+  font-style: normal;
   font-weight: bold;
 }
 
@@ -82,7 +82,7 @@
   src: url('../font/IntegralCF-HeavyOblique.woff2') format('woff2'),
        url('../font/IntegralCF-HeavyOblique.woff') format('woff'),
        url('../font/IntegralCF-HeavyOblique.eot');
-  font-style: italic;
+  font-style: normal;
   font-weight: bold;
 }
 
@@ -101,7 +101,7 @@
   src: url('../font/IntegralCF-MediumOblique.woff2') format('woff2'),
        url('../font/IntegralCF-MediumOblique.woff') format('woff'),
        url('../font/IntegralCF-MediumOblique.eot');
-  font-style: italic;
+  font-style: normal;
   font-weight: bold;
 }
 
@@ -120,7 +120,7 @@
   src: url('../font/IntegralCF-RegularOblique.woff2') format('woff2'),
        url('../font/IntegralCF-RegularOblique.woff') format('woff'),
        url('../font/IntegralCF-RegularOblique.eot');
-  font-style: italic;
+  font-style: normal;
   font-weight: normal;
 }
 
