@@ -13,18 +13,18 @@
 /* Bold */
 @font-face {
   font-family: 'IntegralCF-Bold';
-  src: url('/JinsPlaceWebsite/assets/font/IntegralCF-Bold.woff2') format('woff2'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-Bold.woff') format('woff'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-Bold.eot');
+  src: url('../font/IntegralCF-Bold.woff2') format('woff2'),
+       url('../font/IntegralCF-Bold.woff') format('woff'),
+       url('../font/IntegralCF-Bold.eot');
   font-weight: bold;
 }
 
 /* Bold Oblique */
 @font-face {
   font-family: 'IntegralCF-BoldOblique';
-  src: url('/JinsPlaceWebsite/assets/font/IntegralCF-BoldOblique.woff2') format('woff2'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-BoldOblique.woff') format('woff'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-BoldOblique.eot');
+  src: url('../font/IntegralCF-BoldOblique.woff2') format('woff2'),
+       url('../font/IntegralCF-BoldOblique.woff') format('woff'),
+       url('../font/IntegralCF-BoldOblique.eot');
   font-style: italic;
   font-weight: bold;
 }
@@ -32,18 +32,18 @@
 /* Demi Bold */
 @font-face {
   font-family: 'IntegralCF-DemiBold';
-  src: url('/JinsPlaceWebsite/assets/font/IntegralCF-DemiBold.woff2') format('woff2'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-DemiBold.woff') format('woff'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-DemiBold.eot');
+  src: url('../font/IntegralCF-DemiBold.woff2') format('woff2'),
+       url('../font/IntegralCF-DemiBold.woff') format('woff'),
+       url('../font/IntegralCF-DemiBold.eot');
   font-weight: bold;
 }
 
 /* Demi Bold Oblique */
 @font-face {
   font-family: 'IntegralCF-DemiBoldOblique';
-  src: url('/JinsPlaceWebsite/assets/font/IntegralCF-DemiBoldOblique.woff2') format('woff2'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-DemiBoldOblique.woff') format('woff'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-DemiBoldOblique.eot');
+  src: url('../font/IntegralCF-DemiBoldOblique.woff2') format('woff2'),
+       url('../font/IntegralCF-DemiBoldOblique.woff') format('woff'),
+       url('../font/IntegralCF-DemiBoldOblique.eot');
   font-style: italic;
   font-weight: bold;
 }
@@ -51,18 +51,18 @@
 /* Extra Bold */
 @font-face {
   font-family: 'IntegralCF-ExtraBold';
-  src: url('/JinsPlaceWebsite/assets/font/IntegralCF-ExtraBold.woff2') format('woff2'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-ExtraBold.woff') format('woff'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-ExtraBold.eot');
+  src: url('../font/IntegralCF-ExtraBold.woff2') format('woff2'),
+       url('../font/IntegralCF-ExtraBold.woff') format('woff'),
+       url('../font/IntegralCF-ExtraBold.eot');
   font-weight: bold;
 }
 
 /* Extra Bold Oblique */
 @font-face {
   font-family: 'IntegralCF-ExtraBoldOblique';
-  src: url('/JinsPlaceWebsite/assets/font/IntegralCF-ExtraBoldOblique.woff2') format('woff2'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-ExtraBoldOblique.woff') format('woff'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-ExtraBoldOblique.eot');
+  src: url('../font/IntegralCF-ExtraBoldOblique.woff2') format('woff2'),
+       url('../font/IntegralCF-ExtraBoldOblique.woff') format('woff'),
+       url('../font/IntegralCF-ExtraBoldOblique.eot');
   font-style: italic;
   font-weight: bold;
 }
@@ -70,18 +70,18 @@
 /* Heavy */
 @font-face {
   font-family: 'IntegralCF-Heavy';
-  src: url('/JinsPlaceWebsite/assets/font/IntegralCF-Heavy.woff2') format('woff2'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-Heavy.woff') format('woff'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-Heavy.eot');
+  src: url('../font/IntegralCF-Heavy.woff2') format('woff2'),
+       url('../font/IntegralCF-Heavy.woff') format('woff'),
+       url('../font/IntegralCF-Heavy.eot');
   font-weight: bold;
 }
 
 /* Heavy Oblique */
 @font-face {
   font-family: 'IntegralCF-HeavyOblique';
-  src: url('/JinsPlaceWebsite/assets/font/IntegralCF-HeavyOblique.woff2') format('woff2'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-HeavyOblique.woff') format('woff'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-HeavyOblique.eot');
+  src: url('../font/IntegralCF-HeavyOblique.woff2') format('woff2'),
+       url('../font/IntegralCF-HeavyOblique.woff') format('woff'),
+       url('../font/IntegralCF-HeavyOblique.eot');
   font-style: italic;
   font-weight: bold;
 }
@@ -89,18 +89,18 @@
 /* Medium */
 @font-face {
   font-family: 'IntegralCF-Medium';
-  src: url('/JinsPlaceWebsite/assets/font/IntegralCF-Medium.woff2') format('woff2'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-Medium.woff') format('woff'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-Medium.eot');
+  src: url('../font/IntegralCF-Medium.woff2') format('woff2'),
+       url('../font/IntegralCF-Medium.woff') format('woff'),
+       url('../font/IntegralCF-Medium.eot');
   font-weight: bold;
 }
 
 /* Medium Oblique */
 @font-face {
   font-family: 'IntegralCF-MediumOblique';
-  src: url('/JinsPlaceWebsite/assets/font/IntegralCF-MediumOblique.woff2') format('woff2'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-MediumOblique.woff') format('woff'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-MediumOblique.eot');
+  src: url('../font/IntegralCF-MediumOblique.woff2') format('woff2'),
+       url('../font/IntegralCF-MediumOblique.woff') format('woff'),
+       url('../font/IntegralCF-MediumOblique.eot');
   font-style: italic;
   font-weight: bold;
 }
@@ -108,18 +108,18 @@
 /* Regular */
 @font-face {
   font-family: 'IntegralCF-Regular';
-  src: url('/JinsPlaceWebsite/assets/font/IntegralCF-Regular.woff2') format('woff2'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-Regular.woff') format('woff'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-Regular.eot');
+  src: url('../font/IntegralCF-Regular.woff2') format('woff2'),
+       url('../font/IntegralCF-Regular.woff') format('woff'),
+       url('../font/IntegralCF-Regular.eot');
   font-weight: normal;
 }
 
 /* Regular Oblique */
 @font-face {
   font-family: 'IntegralCF-RegularOblique';
-  src: url('/JinsPlaceWebsite/assets/font/IntegralCF-RegularOblique.woff2') format('woff2'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-RegularOblique.woff') format('woff'),
-       url('/JinsPlaceWebsite/assets/font/IntegralCF-RegularOblique.eot');
+  src: url('../font/IntegralCF-RegularOblique.woff2') format('woff2'),
+       url('../font/IntegralCF-RegularOblique.woff') format('woff'),
+       url('../font/IntegralCF-RegularOblique.eot');
   font-style: italic;
   font-weight: normal;
 }
@@ -148,7 +148,7 @@ h6 {
 }
 
 p {
-  font-family: "IntegralCF-Regular", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #navbar li a {
@@ -296,7 +296,7 @@ p {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  top: 40px;
+  top: 0px;
 }
 
 #header.header-scrolled {
@@ -1105,7 +1105,7 @@ section {
 }
 
 .menu .menu-content {
-  margin-left: 85px;
+  margin-left: 40px;
   overflow: hidden;
   display: flex;
   justify-content: space-between;
@@ -1637,7 +1637,7 @@ section {
 .contact .info .open-hours,
 .contact .info .email,
 .contact .info .phone {
-  /* margin-top: 40px; */
+  margin-bottom: 40px;
 }
 
 .contact .php-email-form {
