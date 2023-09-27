@@ -683,6 +683,7 @@ p {
   margin-top: 30px;
   display: flex;  /* Set the btns container to be a flex container */
   align-items: center;  /* Vertically align the content in the center */
+
 }
 
 #hero .btns a, .btns .dropdown-toggle {
@@ -860,6 +861,13 @@ p {
   }
 }
 
+@media (max-width: 767px) {
+  .btns {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+}
 
 @media (min-width: 1024px) {
   #hero {
