@@ -117,8 +117,15 @@
 
           <div class="btns">
             <a href="#menu" class="btn-menu animated fadeInUp scrollto" style="text-decoration:none">Our Menu</a>
-            <a href="tel:(02)42617069" class="btn-book animated fadeInUp scrollto" style="text-decoration:none">Call
-              Us</a>
+            <div class="dropdown">
+              <a href="#" class="btn-book animated fadeInUp scrollto dropdown-toggle" id="callUsDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration:none">
+                Call Us
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="callUsDropdown">
+                <li><a class="dropdown-item" href="tel:(02)42617069">Call Thirroul</a></li>
+                <li><a class="dropdown-item" href="tel:(02)72999505">Call Fairy Meadow</a></li>
+              </ul>
+            </div>
 
             <div class="dropdown">
               <a href="#" class="btn-book animated fadeInUp scrollto dropdown-toggle">
@@ -708,57 +715,51 @@
         </div>
       </div>
 
-      <div data-aos="fade-up">
-        <iframe style="border:0; width: 100%; height: 350px;">
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6590.679173723083!2d150.9171647290652!3d-34.31637017067067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b131fcf128f4f93%3A0x4a697ca531b153f8!2s374%20Lawrence%20Hargrave%20Dr%2C%20Thirroul%20NSW%202515!5e0!3m2!1sen!2sau!4v1707286902898!5m2!1sen!2sau"
-          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"> frameborder="0" allowfullscreen></iframe>
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <!-- First Restaurant Map -->
+          <div class="col-lg-6 col-md-12 mb-4">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6590.679173723083!2d150.9171647290652!3d-34.31637017067067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b131fcf128f4f93%3A0x4a697ca531b153f8!2s374%20Lawrence%20Hargrave%20Dr%2C%20Thirroul%20NSW%202515!5e0!3m2!1sen!2sau!4v1707286902898!5m2!1sen!2sau"
+              style="border:0; width: 100%; height: 350px;" allowfullscreen="" loading="lazy">
+            </iframe>
+            <div class="mt-3">
+              <h3>Jin's Place - Thirroul</h3>
+              <p>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=374+Lawrence+Hargrave+Dr,+Thirroul+NSW+2515" target="_blank" style="text-decoration: none; color: inherit;">
+                  Shop 2, 374 Lawrence Hargrave Dr<br>
+                  Thirroul NSW 2515
+                </a><br><br>
+                <strong>Phone:</strong> (02) 4261 7069<br>
+                <strong>Email:</strong> jinsplace2021@gmail.com<br>
+                <strong>Hours:</strong> 7 days: 10:30 AM - 9:30 PM
+              </p>
+            </div>
+          </div>
+
+          <!-- Second Restaurant Map -->
+          <div class="col-lg-6 col-md-12 mb-4">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6584.502169623924!2d150.89038317724737!3d-34.39496347302981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b13193c89f07519%3A0xd8f79a60d6aa7d3b!2s128%20Princes%20Hwy%2C%20Fairy%20Meadow%20NSW%202519!5e0!3m2!1sen!2sau!4v1744494371187!5m2!1sen!2sau"
+              style="border:0; width: 100%; height: 350px;" allowfullscreen="" loading="lazy">
+            </iframe>
+            <div class="mt-3">
+              <h3>Jin's Place - Fairy Meadow</h3>
+              <p>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=128+Princes+Highway,+Fairy+Meadow+NSW+2519" target="_blank" style="text-decoration: none; color: inherit;">
+                  128 Princes Highway<br>
+                  Fairy Meadow NSW 2519
+                </a><br><br>
+                <strong>Phone:</strong> (02) 7299 9505<br>
+                <strong>Email:</strong> jinsplace2025@gmail.com<br>
+                <strong>Hours:</strong> 7 days: 11 AM - 9 PM
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="container" data-aos="fade-up">
-        <div class="row mt-5">
-          <div class="col-lg-3 col-md-6 d-flex">
-            <div class="info align-self-stretch">
-              <div class="address" style="  margin-bottom: 40px;">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Shop 2, 374 Lawrence Hargrave Dr, Thirroul NSW 2515</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex">
-            <div class="info align-self-stretch">
-              <div class="open-hours">
-                <i class="bi bi-clock"></i>
-                <h4>Open Hours:</h4>
-                <p>
-                  7 days:<br>
-                  10:30 AM - 9:30 PM
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex">
-            <div class="info align-self-stretch">
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>jinsplace2021@gmail.com</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex">
-            <div class="info align-self-stretch">
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>(02) 4261 7069</p>
-              </div>
-            </div>
-          </div>
+        <div>
           <p>Note that we cannot refund Uber Eats or Doordash, if you wish to dispute your order please do so on the delivery service</p>
         </div>
       </div>
