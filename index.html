@@ -18,21 +18,15 @@
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
 
-  <title>Jins Place - Authentic Korean and Japanese Cuisine</title>
-  <meta name="description"
-    content="Jins Place, located in Corrimal, offers fresh and delicious Korean and Japanese Cuisine. Located at...">
-
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Jin's Place - Authentic Korean and Japanese Cuisine</title>
+  <meta name="description" content="Jin's Place offers fresh and delicious Korean and Japanese Cuisine at our Thirroul and Fairy Meadow locations.">
 
   <!-- Favicons -->
   <link href="assets/img/jin-webstamp.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
@@ -80,11 +74,14 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
+          <li class="dropdown"><a href="#"><span>Locations</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="thirroul.html">Thirroul</a></li>
+              <li><a href="fairy-meadow.html">Fairy Meadow</a></li>
+            </ul>
+          </li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#specials">Specials</a></li>
-          <li><a class="nav-link scrollto" href="#events">Events</a></li>
-          <li><a class="nav-link scrollto" href="#chefs">Chefs</a></li> -->
+          <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
           <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
 
@@ -116,30 +113,9 @@
           <h2>Authentic Korean & Japanese Cuisine</h2>
 
           <div class="btns">
-            <a href="#menu" class="btn-menu animated fadeInUp scrollto" style="text-decoration:none">Our Menu</a>
-            <div class="dropdown">
-              <a href="#" class="btn-book animated fadeInUp scrollto dropdown-toggle" id="callUsDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration:none">
-                Call Us
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="callUsDropdown">
-                <li><a class="dropdown-item" href="tel:(02)42617069">Call Thirroul</a></li>
-                <li><a class="dropdown-item" href="tel:(02)72999505">Call Fairy Meadow</a></li>
-              </ul>
-            </div>
-
-            <div class="dropdown">
-              <a href="#" class="btn-book animated fadeInUp scrollto dropdown-toggle">
-                Order Online
-              </a>
-              <ul>
-                <li><a href="https://palm-online.posway.co/jinsplace/" data-vendor="Pickup"
-                    onclick="sendGAEvent(this);">Pick Up</a></li>
-                <li><a href="https://www.ubereats.com/au/store/jins-place/_8fKB48nVyqg_reTbmd3Lw"
-                    data-vendor="Uber Eats" onclick="sendGAEvent(this);">Uber Eats</a></li>
-                <li><a href="https://www.doordash.com/store/jin's-place-thirroul-25983381/" data-vendor="Doordash"
-                    onclick="sendGAEvent(this);">Doordash</a></li>
-              </ul>
-            </div>
+            <a href="#menu" class="btn-menu animated fadeInUp scrollto" style="text-decoration:none">View Menu</a>
+            <a href="thirroul.html" class="btn-menu animated fadeInUp" style="text-decoration:none">Thirroul</a>
+            <a href="fairy-meadow.html" class="btn-menu animated fadeInUp" style="text-decoration:none">Fairy Meadow</a>
           </div>
         </div>
       </div>
@@ -149,31 +125,15 @@
   <main id="main">
 
 
-    <!-- ======= Menu Section ======= -->
-    <section id="menu" class="menu section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Menu</h2>
-          <p>Check Our Tasty Menu</p>
-        </div>
-
-        <div class="btns" style="display: flex; justify-content: center;">
-          <!-- <a href="jins_place_breakfast_menu.pdf" class="btn-menu animated fadeInUp scrollto" style="text-decoration:none" target="_blank">Breakfast Menu</a> -->
-          <a href="jins_place_lunch_and_dinner_menu.pdf" class="btn-menu animated fadeInUp scrollto" style="text-decoration:none" target="_blank">Lunch & Dinner Menu</a>
-        </div>
-
-    </section>
-
-
-
-
-    <!-- End Menu Section -->
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
+        <div class="section-title">
+          <h2 style="position: relative; z-index: 2;">About</h2>
+          <p style="position: relative; z-index: 2;">Learn About Us</p>
+        </div>
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
             <div class="about-img">
@@ -181,293 +141,95 @@
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>About Us</h3>
-            <p>Hello, I'm Chef Jin.</p>
-            <p>I made fried eggs for the first time when I was 6 years old because of my parents who work together, this
+            <h3 style="position: relative; z-index: 2;">About Us</h3>
+            <p style="position: relative; z-index: 2;">Hello, I'm Chef Jin.</p>
+            <p style="position: relative; z-index: 2;">I made fried eggs for the first time when I was 6 years old because of my parents who work together, this
               was my first dish. </p>
-            <p>When I was 18 years old in high school, my father couldn't work because of an accident. This meant I had
+            <p style="position: relative; z-index: 2;">When I was 18 years old in high school, my father couldn't work because of an accident. This meant I had
               to earn my tuition, so I got work as a kitchen hand at a restaurant.</p>
-            <p>In 2005, I came to Australia to study English, and I started working again with kitchen hand, and then I
+            <p style="position: relative; z-index: 2;">In 2005, I came to Australia to study English, and I started working again with kitchen hand, and then I
               thought I wanted to be a chef, and I went to a school called tafe. I did an application at the Gold Coast
               Hyatt Hotel, and I was named the best employee for 6 months in a row.</p>
-            <p>I moved to Sydney in 2010 to study cooking in detail. And I started cooking Japanese food. I worked as a
+            <p style="position: relative; z-index: 2;">I moved to Sydney in 2010 to study cooking in detail. And I started cooking Japanese food. I worked as a
               menu development team manager at sushi bay and operated Toro sushiya / Toro Robata Sushi restaurant menu
               and open for 3 years.</p>
-            <p>To keep my promise to my daughter, I opened a small restaurant in the area of Corrimal in 2021. It was
+            <p style="position: relative; z-index: 2;">To keep my promise to my daughter, I opened a small restaurant in the area of Corrimal in 2021. It was
               very difficult during Covid-19, but my appointment with my daughter was really important to me.</p>
-            <p>Jin's Place is a cheerful reinterpretation of Korean and Japanese food casual dining and takeaway. We
+            <p style="position: relative; z-index: 2;">Jin's Place is a cheerful reinterpretation of Korean and Japanese food casual dining and takeaway. We
               provide customers with food with sincerity in their busy daily lives. I always thought about making a
               healthy and happy space. The value of health and honesty that we have pursued for a long time, and the
               long-standing effort to make that value a healthy food.</p>
-            <p>Jin's Place is a restaurant where you can meet this special value in a comfortable space. Jin's Place
+            <p style="position: relative; z-index: 2;">Jin's Place is a restaurant where you can meet this special value in a comfortable space. Jin's Place
               gives you the best menus and unforgettable experiences and memories.</p>
-            <p>Thank you, Jin.</p>
-            </p>
+            <p style="position: relative; z-index: 2;">Thank you, Jin.</p>
           </div>
         </div>
-
       </div>
-    </section><!-- End About Section -->
+    </section>
 
-    <!-- ======= Specials Section ======= -->
-    <!-- <section id="specials" class="specials">
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu section-bg">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
-          <h2>Specials</h2>
-          <p>Check Our Specials</p>
+          <h2>Menu</h2>
+          <p>Check Our Tasty Menu</p>
         </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-3">
-            <ul class="nav nav-tabs flex-column">
-              <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Modi sit est</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Unde praesentium sed</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Pariatur explicabo vel</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Nostrum qui quasi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Iusto ut expedita aut</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-9 mt-4 mt-lg-0">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Architecto ut aperiam autem id</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-1.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-2">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Et blanditiis nemo veritatis excepturi</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-2.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-3">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
-                    <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
-                    <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-3.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-4">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
-                    <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
-                    <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-4.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-5">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-5.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="btns" style="display: flex; justify-content: center; gap: 20px;">
+          <a href="menu_thirroul.pdf" class="btn-menu animated fadeInUp" style="text-decoration:none" target="_blank">Thirroul Menu</a>
+          <a href="menu_fairy_meadow.pdf" class="btn-menu animated fadeInUp" style="text-decoration:none" target="_blank">Fairy Meadow Menu</a>
         </div>
-
       </div>
-    </section> -->
-    <!-- End Specials Section -->
+    </section>
 
-    <!-- ======= Events Section ======= -->
-    <!-- <section id="events" class="events">
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
-          <h2>Events</h2>
-          <p>Organize Your Events in our Restaurant</p>
+          <h2>Gallery</h2>
+          <p>Some photos from Our Restaurant</p>
         </div>
-
-        <div class="events-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="row event-item">
-                <div class="col-lg-6">
-                  <img src="assets/img/event-birthday.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Birthday Parties</h3>
-                  <div class="price">
-                    <p><span>$189</span></p>
-                  </div>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
-                  </p>
-                </div>
-              </div>
-            </div> -->
-    <!-- End testimonial item -->
-
-    <!-- <div class="swiper-slide">
-              <div class="row event-item">
-                <div class="col-lg-6">
-                  <img src="assets/img/event-private.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Private Parties</h3>
-                  <div class="price">
-                    <p><span>$290</span></p>
-                  </div>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
-                  </p>
-                </div>
-              </div>
-            </div> -->
-    <!-- End testimonial item -->
-
-    <!-- <div class="swiper-slide">
-              <div class="row event-item">
-                <div class="col-lg-6">
-                  <img src="assets/img/event-custom.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Custom Parties</h3>
-                  <div class="price">
-                    <p><span>$99</span></p>
-                  </div>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
-                  </p>
-                </div>
-              </div>
-            </div> -->
-    <!-- End testimonial item -->
-
-    <!-- </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
       </div>
-    </section> -->
-    <!-- End Events Section -->
 
-    <!-- ======= Book A Table Section ======= -->
-    <!-- <section id="book-a-table" class="book-a-table">
-      <div class="container" data-aos="fade-up">
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-0">
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/jin-gallery-1.jpeg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/jin-gallery-1.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
 
-        <div class="section-title">
-          <h2>Reservation</h2>
-          <p>Book a Table</p>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/jin-gallery-13.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/jin-gallery-13.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/jin-gallery-3.jpeg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/jin-gallery-3.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/jin-gallery-4.jpeg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/jin-gallery-4.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
         </div>
-
-        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
-              <div class="validate"></div>
-            </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
-              <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
-              <div class="validate"></div>
-            </div>
-          </div>
-          <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
-            <div class="validate"></div>
-          </div>
-          <div class="mb-3">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
-          </div>
-          <div class="text-center"><button type="submit">Book a Table</button></div>
-        </form>
-
       </div>
-    </section> -->
-    <!-- End Book A Table Section -->
+    </section>
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials section-bg">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <h2>Testimonials</h2>
           <p>What they're saying about us</p>
@@ -475,7 +237,6 @@
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
-
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
@@ -485,25 +246,21 @@
                   return!
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <!-- <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""> -->
                 <h3>Patrick</h3>
-                <!-- <h4>Ceo &amp; Founder</h4> -->
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   I recently took the family out to try the food here. I ordered the vegan set menu. It was great value
-                  for money. I’ll definitely be back!
+                  for money. I'll definitely be back!
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <!-- <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt=""> -->
                 <h3>Fiona</h3>
-                <!-- <h4>Designer</h4> -->
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -513,202 +270,18 @@
                   Thanks Jin - we'll definitely be back!
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <!-- <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt=""> -->
                 <h3>Melanie</h3>
-                <!-- <h4>Store Owner</h4> -->
               </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Jin's Place has great ramen, sushi and best of all is the crispy Chilli chicken. If you are looking
-                  for some great Korean and Japanese food make sure you pay Jin's place a visit!
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <!-- <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt=""> -->
-                <h3>Sean</h3>
-                <!-- <h4>Freelancer</h4> -->
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Exceptional food and very welcoming. You won’t be disappointed. Jin always has excellent care,
-                  attention to detail and quality of food.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <!-- <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt=""> -->
-                <h3>Amber</h3>
-                <!-- <h4>Entrepreneur</h4> -->
-              </div>
-            </div><!-- End testimonial item -->
-
+            </div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
-
-    <section id="gallery" class="testimonials section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Gallery</h2>
-          <p>Some photos from Our Restaurant</p>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <a href="assets/img/gallery/jin-gallery-1.jpeg" class="gallery-lightbox" data-gall="gallery-item">
-                <img class="img-fluid" src="assets/img/gallery/jin-gallery-1.jpeg" alt="" />
-              </a>
-            </div>
-
-            <div class="swiper-slide">
-              <a href="assets/img/gallery/jin-gallery-11.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img class="img-fluid" src="assets/img/gallery/jin-gallery-11.jpg" alt="" />
-              </a>
-            </div>
-
-            <div class="swiper-slide">
-              <a href="assets/img/gallery/jin-gallery-3.jpeg" class="gallery-lightbox" data-gall="gallery-item">
-                <img class="img-fluid" src="assets/img/gallery/jin-gallery-3.jpeg" alt="" />
-              </a>
-            </div>
-
-            <div class="swiper-slide">
-              <a href="assets/img/gallery/jin-gallery-4.jpeg" class="gallery-lightbox" data-gall="gallery-item">
-                <img class="img-fluid" src="assets/img/gallery/jin-gallery-4.jpeg" alt="" />
-              </a>
-            </div>
-
-            <div class="swiper-slide">
-              <a href="assets/img/gallery/jin-gallery-9.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img class="img-fluid" src="assets/img/gallery/jin-gallery-9.jpg" alt="" />
-              </a>
-            </div>
-
-            <div class="swiper-slide">
-              <a href="assets/img/gallery/jin-gallery-5.jpeg" class="gallery-lightbox" data-gall="gallery-item">
-                <img class="img-fluid" src="assets/img/gallery/jin-gallery-5.jpeg" alt="" />
-              </a>
-            </div>
-
-            <div class="swiper-slide">
-              <a href="assets/img/gallery/jin-gallery-6.jpeg" class="gallery-lightbox" data-gall="gallery-item">
-                <img class="img-fluid" src="assets/img/gallery/jin-gallery-6.jpeg" alt="" />
-              </a>
-            </div>
-
-            <div class="swiper-slide">
-              <a href="assets/img/gallery/jin-gallery-7.jpeg" class="gallery-lightbox" data-gall="gallery-item">
-                <img class="img-fluid" src="assets/img/gallery/jin-gallery-7.jpeg" alt="" />
-              </a>
-            </div>
-
-            <div class="swiper-slide">
-              <a href="assets/img/gallery/jin-gallery-8.jpeg" class="gallery-lightbox" data-gall="gallery-item">
-                <img class="img-fluid" src="assets/img/gallery/jin-gallery-8.jpeg" alt="" />
-              </a>
-            </div>
-
-            <div class="swiper-slide">
-              <a href="assets/img/gallery/jin-gallery-10.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img class="img-fluid" src="assets/img/gallery/jin-gallery-10.jpg" alt="" />
-              </a>
-            </div>
-
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Gallery Section -->
-
-
-    <!-- ======= Chefs Section ======= -->
-    <!-- <section id="chefs" class="chefs">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Chefs</h2>
-          <p>Our Proffesional Chefs</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Master Chef</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="member" data-aos="zoom-in" data-aos-delay="200">
-              <img src="assets/img/chefs/chefs-2.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Patissier</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="member" data-aos="zoom-in" data-aos-delay="300">
-              <img src="assets/img/chefs/chefs-3.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>Cook</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
       </div>
     </section>
-    End Chefs Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <h2>Contact</h2>
           <p>Contact Us</p>
@@ -759,12 +332,10 @@
         </div>
       </div>
 
-        <div>
+        <div class="text-center mt-4">
           <p>Note that we cannot refund Uber Eats or Doordash, if you wish to dispute your order please do so on the delivery service</p>
         </div>
       </div>
-
-
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
